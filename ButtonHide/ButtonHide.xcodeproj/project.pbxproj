@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BECF107231CFD4800799891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF106231CFD4800799891 /* AppDelegate.swift */; };
+		3BECF109231CFD4800799891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF108231CFD4800799891 /* ViewController.swift */; };
+		3BECF10C231CFD4800799891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BECF10A231CFD4800799891 /* Main.storyboard */; };
+		3BECF10E231CFD4A00799891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BECF10D231CFD4A00799891 /* Assets.xcassets */; };
+		3BECF111231CFD4A00799891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BECF10F231CFD4A00799891 /* LaunchScreen.storyboard */; };
+		3BECF11C231CFD4A00799891 /* ButtonHideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF11B231CFD4A00799891 /* ButtonHideTests.swift */; };
+		3BECF127231CFD4B00799891 /* ButtonHideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF126231CFD4B00799891 /* ButtonHideUITests.swift */; };
+		3BECF1A1231D004E00799891 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF17D231D004E00799891 /* ConstraintMultiplierTarget.swift */; };
+		3BECF1A2231D004E00799891 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF17E231D004E00799891 /* LayoutConstraintItem.swift */; };
+		3BECF1A3231D004E00799891 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF17F231D004E00799891 /* ConstraintDescription.swift */; };
+		3BECF1A4231D004E00799891 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF180231D004E00799891 /* ConstraintMakerPriortizable.swift */; };
+		3BECF1A5231D004E00799891 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF181231D004E00799891 /* ConstraintAttributes.swift */; };
+		3BECF1A6231D004E00799891 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF182231D004E00799891 /* ConstraintViewDSL.swift */; };
+		3BECF1A7231D004E00799891 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF183231D004E00799891 /* ConstraintPriorityTarget.swift */; };
+		3BECF1A8231D004E00799891 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF184231D004E00799891 /* ConstraintInsets.swift */; };
+		3BECF1A9231D004E00799891 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF185231D004E00799891 /* ConstraintMakerFinalizable.swift */; };
+		3BECF1AA231D004E00799891 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF186231D004E00799891 /* ConstraintDSL.swift */; };
+		3BECF1AB231D004E00799891 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF187231D004E00799891 /* ConstraintMakerExtendable.swift */; };
+		3BECF1AC231D004E00799891 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF188231D004E00799891 /* ConstraintPriority.swift */; };
+		3BECF1AD231D004E00799891 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF189231D004E00799891 /* ConstraintInsetTarget.swift */; };
+		3BECF1AE231D004E00799891 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF18B231D004E00799891 /* ConstraintConfig.swift */; };
+		3BECF1AF231D004E00799891 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF18C231D004E00799891 /* UILayoutSupport+Extensions.swift */; };
+		3BECF1B0231D004E00799891 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF18D231D004E00799891 /* ConstraintView.swift */; };
+		3BECF1B1231D004E00799891 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF18E231D004E00799891 /* ConstraintLayoutGuide.swift */; };
+		3BECF1B2231D004E00799891 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF18F231D004E00799891 /* ConstraintLayoutSupport.swift */; };
+		3BECF1B3231D004E00799891 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF190231D004E00799891 /* Typealiases.swift */; };
+		3BECF1B4231D004E00799891 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF191231D004E00799891 /* ConstraintConstantTarget.swift */; };
+		3BECF1B5231D004E00799891 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF192231D004E00799891 /* ConstraintOffsetTarget.swift */; };
+		3BECF1B6231D004E00799891 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF193231D004E00799891 /* ConstraintMakerEditable.swift */; };
+		3BECF1B7231D004E00799891 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF194231D004E00799891 /* ConstraintMaker.swift */; };
+		3BECF1B8231D004E00799891 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF195231D004E00799891 /* ConstraintRelation.swift */; };
+		3BECF1B9231D004E00799891 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF196231D004E00799891 /* ConstraintLayoutGuideDSL.swift */; };
+		3BECF1BA231D004E00799891 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF197231D004E00799891 /* ConstraintView+Extensions.swift */; };
+		3BECF1BB231D004E00799891 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF198231D004E00799891 /* ConstraintItem.swift */; };
+		3BECF1BC231D004E00799891 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF199231D004E00799891 /* Constraint.swift */; };
+		3BECF1BD231D004E00799891 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF19A231D004E00799891 /* Debugging.swift */; };
+		3BECF1BE231D004E00799891 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF19B231D004E00799891 /* ConstraintRelatableTarget.swift */; };
+		3BECF1C0231D004E00799891 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF19D231D004E00799891 /* LayoutConstraint.swift */; };
+		3BECF1C1231D004E00799891 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF19E231D004E00799891 /* ConstraintLayoutGuide+Extensions.swift */; };
+		3BECF1C2231D004E00799891 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF19F231D004E00799891 /* ConstraintLayoutSupportDSL.swift */; };
+		3BECF1C3231D004E00799891 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BECF1A0231D004E00799891 /* ConstraintMakerRelatable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BECF118231CFD4A00799891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BECF0FB231CFD4800799891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BECF102231CFD4800799891;
+			remoteInfo = ButtonHide;
+		};
+		3BECF123231CFD4B00799891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BECF0FB231CFD4800799891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BECF102231CFD4800799891;
+			remoteInfo = ButtonHide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BECF103231CFD4800799891 /* ButtonHide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonHide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BECF106231CFD4800799891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BECF108231CFD4800799891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BECF10B231CFD4800799891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BECF10D231CFD4A00799891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BECF110231CFD4A00799891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BECF112231CFD4A00799891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BECF117231CFD4A00799891 /* ButtonHideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonHideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BECF11B231CFD4A00799891 /* ButtonHideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHideTests.swift; sourceTree = "<group>"; };
+		3BECF11D231CFD4A00799891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BECF122231CFD4B00799891 /* ButtonHideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonHideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BECF126231CFD4B00799891 /* ButtonHideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHideUITests.swift; sourceTree = "<group>"; };
+		3BECF128231CFD4B00799891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BECF17D231D004E00799891 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		3BECF17E231D004E00799891 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		3BECF17F231D004E00799891 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		3BECF180231D004E00799891 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		3BECF181231D004E00799891 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		3BECF182231D004E00799891 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		3BECF183231D004E00799891 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		3BECF184231D004E00799891 /* ConstraintInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		3BECF185231D004E00799891 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		3BECF186231D004E00799891 /* ConstraintDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		3BECF187231D004E00799891 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		3BECF188231D004E00799891 /* ConstraintPriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriority.swift; sourceTree = "<group>"; };
+		3BECF189231D004E00799891 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		3BECF18A231D004E00799891 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		3BECF18B231D004E00799891 /* ConstraintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		3BECF18C231D004E00799891 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		3BECF18D231D004E00799891 /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		3BECF18E231D004E00799891 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		3BECF18F231D004E00799891 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		3BECF190231D004E00799891 /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		3BECF191231D004E00799891 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		3BECF192231D004E00799891 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		3BECF193231D004E00799891 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		3BECF194231D004E00799891 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		3BECF195231D004E00799891 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		3BECF196231D004E00799891 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		3BECF197231D004E00799891 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		3BECF198231D004E00799891 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		3BECF199231D004E00799891 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		3BECF19A231D004E00799891 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		3BECF19B231D004E00799891 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		3BECF19D231D004E00799891 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		3BECF19E231D004E00799891 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		3BECF19F231D004E00799891 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		3BECF1A0231D004E00799891 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BECF100231CFD4800799891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BECF114231CFD4A00799891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BECF11F231CFD4B00799891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BECF0FA231CFD4800799891 = {
+			isa = PBXGroup;
+			children = (
+				3BECF105231CFD4800799891 /* ButtonHide */,
+				3BECF11A231CFD4A00799891 /* ButtonHideTests */,
+				3BECF125231CFD4B00799891 /* ButtonHideUITests */,
+				3BECF104231CFD4800799891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BECF104231CFD4800799891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BECF103231CFD4800799891 /* ButtonHide.app */,
+				3BECF117231CFD4A00799891 /* ButtonHideTests.xctest */,
+				3BECF122231CFD4B00799891 /* ButtonHideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BECF105231CFD4800799891 /* ButtonHide */ = {
+			isa = PBXGroup;
+			children = (
+				3BECF17C231D004E00799891 /* SnapKit_4.0.0 */,
+				3BECF106231CFD4800799891 /* AppDelegate.swift */,
+				3BECF108231CFD4800799891 /* ViewController.swift */,
+				3BECF10A231CFD4800799891 /* Main.storyboard */,
+				3BECF10D231CFD4A00799891 /* Assets.xcassets */,
+				3BECF10F231CFD4A00799891 /* LaunchScreen.storyboard */,
+				3BECF112231CFD4A00799891 /* Info.plist */,
+			);
+			path = ButtonHide;
+			sourceTree = "<group>";
+		};
+		3BECF11A231CFD4A00799891 /* ButtonHideTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BECF11B231CFD4A00799891 /* ButtonHideTests.swift */,
+				3BECF11D231CFD4A00799891 /* Info.plist */,
+			);
+			path = ButtonHideTests;
+			sourceTree = "<group>";
+		};
+		3BECF125231CFD4B00799891 /* ButtonHideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BECF126231CFD4B00799891 /* ButtonHideUITests.swift */,
+				3BECF128231CFD4B00799891 /* Info.plist */,
+			);
+			path = ButtonHideUITests;
+			sourceTree = "<group>";
+		};
+		3BECF17C231D004E00799891 /* SnapKit_4.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				3BECF17D231D004E00799891 /* ConstraintMultiplierTarget.swift */,
+				3BECF17E231D004E00799891 /* LayoutConstraintItem.swift */,
+				3BECF17F231D004E00799891 /* ConstraintDescription.swift */,
+				3BECF180231D004E00799891 /* ConstraintMakerPriortizable.swift */,
+				3BECF181231D004E00799891 /* ConstraintAttributes.swift */,
+				3BECF182231D004E00799891 /* ConstraintViewDSL.swift */,
+				3BECF183231D004E00799891 /* ConstraintPriorityTarget.swift */,
+				3BECF184231D004E00799891 /* ConstraintInsets.swift */,
+				3BECF185231D004E00799891 /* ConstraintMakerFinalizable.swift */,
+				3BECF186231D004E00799891 /* ConstraintDSL.swift */,
+				3BECF187231D004E00799891 /* ConstraintMakerExtendable.swift */,
+				3BECF188231D004E00799891 /* ConstraintPriority.swift */,
+				3BECF189231D004E00799891 /* ConstraintInsetTarget.swift */,
+				3BECF18A231D004E00799891 /* SnapKit.h */,
+				3BECF18B231D004E00799891 /* ConstraintConfig.swift */,
+				3BECF18C231D004E00799891 /* UILayoutSupport+Extensions.swift */,
+				3BECF18D231D004E00799891 /* ConstraintView.swift */,
+				3BECF18E231D004E00799891 /* ConstraintLayoutGuide.swift */,
+				3BECF18F231D004E00799891 /* ConstraintLayoutSupport.swift */,
+				3BECF190231D004E00799891 /* Typealiases.swift */,
+				3BECF191231D004E00799891 /* ConstraintConstantTarget.swift */,
+				3BECF192231D004E00799891 /* ConstraintOffsetTarget.swift */,
+				3BECF193231D004E00799891 /* ConstraintMakerEditable.swift */,
+				3BECF194231D004E00799891 /* ConstraintMaker.swift */,
+				3BECF195231D004E00799891 /* ConstraintRelation.swift */,
+				3BECF196231D004E00799891 /* ConstraintLayoutGuideDSL.swift */,
+				3BECF197231D004E00799891 /* ConstraintView+Extensions.swift */,
+				3BECF198231D004E00799891 /* ConstraintItem.swift */,
+				3BECF199231D004E00799891 /* Constraint.swift */,
+				3BECF19A231D004E00799891 /* Debugging.swift */,
+				3BECF19B231D004E00799891 /* ConstraintRelatableTarget.swift */,
+				3BECF19D231D004E00799891 /* LayoutConstraint.swift */,
+				3BECF19E231D004E00799891 /* ConstraintLayoutGuide+Extensions.swift */,
+				3BECF19F231D004E00799891 /* ConstraintLayoutSupportDSL.swift */,
+				3BECF1A0231D004E00799891 /* ConstraintMakerRelatable.swift */,
+			);
+			path = SnapKit_4.0.0;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BECF102231CFD4800799891 /* ButtonHide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BECF12B231CFD4B00799891 /* Build configuration list for PBXNativeTarget "ButtonHide" */;
+			buildPhases = (
+				3BECF0FF231CFD4800799891 /* Sources */,
+				3BECF100231CFD4800799891 /* Frameworks */,
+				3BECF101231CFD4800799891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonHide;
+			productName = ButtonHide;
+			productReference = 3BECF103231CFD4800799891 /* ButtonHide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BECF116231CFD4A00799891 /* ButtonHideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BECF12E231CFD4B00799891 /* Build configuration list for PBXNativeTarget "ButtonHideTests" */;
+			buildPhases = (
+				3BECF113231CFD4A00799891 /* Sources */,
+				3BECF114231CFD4A00799891 /* Frameworks */,
+				3BECF115231CFD4A00799891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BECF119231CFD4A00799891 /* PBXTargetDependency */,
+			);
+			name = ButtonHideTests;
+			productName = ButtonHideTests;
+			productReference = 3BECF117231CFD4A00799891 /* ButtonHideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BECF121231CFD4B00799891 /* ButtonHideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BECF131231CFD4B00799891 /* Build configuration list for PBXNativeTarget "ButtonHideUITests" */;
+			buildPhases = (
+				3BECF11E231CFD4B00799891 /* Sources */,
+				3BECF11F231CFD4B00799891 /* Frameworks */,
+				3BECF120231CFD4B00799891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BECF124231CFD4B00799891 /* PBXTargetDependency */,
+			);
+			name = ButtonHideUITests;
+			productName = ButtonHideUITests;
+			productReference = 3BECF122231CFD4B00799891 /* ButtonHideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BECF0FB231CFD4800799891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Ning;
+				TargetAttributes = {
+					3BECF102231CFD4800799891 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3BECF116231CFD4A00799891 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3BECF102231CFD4800799891;
+					};
+					3BECF121231CFD4B00799891 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3BECF102231CFD4800799891;
+					};
+				};
+			};
+			buildConfigurationList = 3BECF0FE231CFD4800799891 /* Build configuration list for PBXProject "ButtonHide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BECF0FA231CFD4800799891;
+			productRefGroup = 3BECF104231CFD4800799891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BECF102231CFD4800799891 /* ButtonHide */,
+				3BECF116231CFD4A00799891 /* ButtonHideTests */,
+				3BECF121231CFD4B00799891 /* ButtonHideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BECF101231CFD4800799891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BECF111231CFD4A00799891 /* LaunchScreen.storyboard in Resources */,
+				3BECF10E231CFD4A00799891 /* Assets.xcassets in Resources */,
+				3BECF10C231CFD4800799891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BECF115231CFD4A00799891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BECF120231CFD4B00799891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BECF0FF231CFD4800799891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BECF1A1231D004E00799891 /* ConstraintMultiplierTarget.swift in Sources */,
+				3BECF1AF231D004E00799891 /* UILayoutSupport+Extensions.swift in Sources */,
+				3BECF1C3231D004E00799891 /* ConstraintMakerRelatable.swift in Sources */,
+				3BECF1B3231D004E00799891 /* Typealiases.swift in Sources */,
+				3BECF109231CFD4800799891 /* ViewController.swift in Sources */,
+				3BECF1B5231D004E00799891 /* ConstraintOffsetTarget.swift in Sources */,
+				3BECF1B1231D004E00799891 /* ConstraintLayoutGuide.swift in Sources */,
+				3BECF1AA231D004E00799891 /* ConstraintDSL.swift in Sources */,
+				3BECF1A5231D004E00799891 /* ConstraintAttributes.swift in Sources */,
+				3BECF1AD231D004E00799891 /* ConstraintInsetTarget.swift in Sources */,
+				3BECF1A4231D004E00799891 /* ConstraintMakerPriortizable.swift in Sources */,
+				3BECF1B2231D004E00799891 /* ConstraintLayoutSupport.swift in Sources */,
+				3BECF1A9231D004E00799891 /* ConstraintMakerFinalizable.swift in Sources */,
+				3BECF107231CFD4800799891 /* AppDelegate.swift in Sources */,
+				3BECF1C1231D004E00799891 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				3BECF1C2231D004E00799891 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				3BECF1B0231D004E00799891 /* ConstraintView.swift in Sources */,
+				3BECF1B4231D004E00799891 /* ConstraintConstantTarget.swift in Sources */,
+				3BECF1B6231D004E00799891 /* ConstraintMakerEditable.swift in Sources */,
+				3BECF1A6231D004E00799891 /* ConstraintViewDSL.swift in Sources */,
+				3BECF1AC231D004E00799891 /* ConstraintPriority.swift in Sources */,
+				3BECF1BE231D004E00799891 /* ConstraintRelatableTarget.swift in Sources */,
+				3BECF1BC231D004E00799891 /* Constraint.swift in Sources */,
+				3BECF1A2231D004E00799891 /* LayoutConstraintItem.swift in Sources */,
+				3BECF1A7231D004E00799891 /* ConstraintPriorityTarget.swift in Sources */,
+				3BECF1AE231D004E00799891 /* ConstraintConfig.swift in Sources */,
+				3BECF1C0231D004E00799891 /* LayoutConstraint.swift in Sources */,
+				3BECF1B7231D004E00799891 /* ConstraintMaker.swift in Sources */,
+				3BECF1BD231D004E00799891 /* Debugging.swift in Sources */,
+				3BECF1A8231D004E00799891 /* ConstraintInsets.swift in Sources */,
+				3BECF1A3231D004E00799891 /* ConstraintDescription.swift in Sources */,
+				3BECF1B8231D004E00799891 /* ConstraintRelation.swift in Sources */,
+				3BECF1BA231D004E00799891 /* ConstraintView+Extensions.swift in Sources */,
+				3BECF1AB231D004E00799891 /* ConstraintMakerExtendable.swift in Sources */,
+				3BECF1B9231D004E00799891 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				3BECF1BB231D004E00799891 /* ConstraintItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BECF113231CFD4A00799891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BECF11C231CFD4A00799891 /* ButtonHideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BECF11E231CFD4B00799891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BECF127231CFD4B00799891 /* ButtonHideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BECF119231CFD4A00799891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BECF102231CFD4800799891 /* ButtonHide */;
+			targetProxy = 3BECF118231CFD4A00799891 /* PBXContainerItemProxy */;
+		};
+		3BECF124231CFD4B00799891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BECF102231CFD4800799891 /* ButtonHide */;
+			targetProxy = 3BECF123231CFD4B00799891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BECF10A231CFD4800799891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BECF10B231CFD4800799891 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BECF10F231CFD4A00799891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BECF110231CFD4A00799891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BECF129231CFD4B00799891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BECF12A231CFD4B00799891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BECF12C231CFD4B00799891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUQWE6NZ45;
+				INFOPLIST_FILE = ButtonHide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = success.ButtonHide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BECF12D231CFD4B00799891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUQWE6NZ45;
+				INFOPLIST_FILE = ButtonHide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = success.ButtonHide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BECF12F231CFD4B00799891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUQWE6NZ45;
+				INFOPLIST_FILE = ButtonHideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = success.ButtonHideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonHide.app/ButtonHide";
+			};
+			name = Debug;
+		};
+		3BECF130231CFD4B00799891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUQWE6NZ45;
+				INFOPLIST_FILE = ButtonHideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = success.ButtonHideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonHide.app/ButtonHide";
+			};
+			name = Release;
+		};
+		3BECF132231CFD4B00799891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUQWE6NZ45;
+				INFOPLIST_FILE = ButtonHideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = success.ButtonHideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ButtonHide;
+			};
+			name = Debug;
+		};
+		3BECF133231CFD4B00799891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUQWE6NZ45;
+				INFOPLIST_FILE = ButtonHideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = success.ButtonHideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ButtonHide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BECF0FE231CFD4800799891 /* Build configuration list for PBXProject "ButtonHide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BECF129231CFD4B00799891 /* Debug */,
+				3BECF12A231CFD4B00799891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BECF12B231CFD4B00799891 /* Build configuration list for PBXNativeTarget "ButtonHide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BECF12C231CFD4B00799891 /* Debug */,
+				3BECF12D231CFD4B00799891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BECF12E231CFD4B00799891 /* Build configuration list for PBXNativeTarget "ButtonHideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BECF12F231CFD4B00799891 /* Debug */,
+				3BECF130231CFD4B00799891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BECF131231CFD4B00799891 /* Build configuration list for PBXNativeTarget "ButtonHideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BECF132231CFD4B00799891 /* Debug */,
+				3BECF133231CFD4B00799891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BECF0FB231CFD4800799891 /* Project object */;
+}
